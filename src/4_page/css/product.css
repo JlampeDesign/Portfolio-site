@@ -1,0 +1,29 @@
+.productBox{
+    position: absolute;
+    top: 8%;
+    left: 27vw;
+    width: 45%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.generalBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indvBox{
+    height: 80%;
+    width: 80%;
+    border-radius: 1em;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: -5px 6px 1.5px 5px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

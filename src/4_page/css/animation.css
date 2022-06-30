@@ -1,0 +1,17 @@
+.an1 {
+    position: absolute;
+    bottom: 5vh;
+    left: 35vw;
+    height: 13vh;
+    width: 30vw;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+    0% {height: 0%;}
+    100% {}
+}

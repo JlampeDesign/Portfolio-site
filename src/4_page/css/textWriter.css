@@ -1,0 +1,33 @@
+.titeltext{
+    color: black;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.midline{
+    padding-top: 2em;
+    font-weight: 350;
+    color: black;
+    font-size: 1.7em;
+}
+
+.endline{
+    padding-top: 2.5em;
+    font-weight: 450;
+    color: black;
+    font-size: 1.7em;
+}
+
+.textBox {
+    padding: 4em;
+    width: 50vw;
+    text-align: left;
+
+}
+
+.imageBox {
+    position: absolute;
+    width: 7.5vw;
+    padding: 4.5em;
+    left: 75vw;
+}

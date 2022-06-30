@@ -1,0 +1,54 @@
+.topBox{
+    width: 5vw;
+    height: 4vh;
+    margin: 1em auto;
+}
+
+.form-group input, .form-group textarea {
+    margin: 1em auto;
+    width: 47vw;
+    padding: 15px;
+    font-size: 1em;
+    background-color: var(--light);
+    
+    font-family: var(--font);
+    border: transparent;
+    border-bottom: 1px solid var(--text);
+}
+.form-group input {
+    color: var(--mail-txt);
+    border: 1px solid black;
+    border-radius: .5em;
+}
+.form-border input, .form-border textarea {
+    margin: 1em auto;
+    width: 47vw;
+    padding: 15px;
+    font-size: 1.3em;
+    border: transparent;
+    font-family: var(--font);
+    background-color: var(--light);
+    border: 1px solid var(--text);
+    border-radius: .5em;
+}
+.form-border textarea {
+    color: var(--mail-txt);
+    border: 1px solid black;
+    border-radius: .5em;
+} 
+textarea {
+    resize: vertical;
+}
+
+.button[type="submit"] {
+    position: absolute;
+    width: 7.5vw;
+    padding: 4.5em;
+    left: 75vw;
+    top: 3em;
+    cursor: pointer;
+    transition: 0.3s ease background-color;
+}
+.button[type="submit"]:hover {
+    padding: 4.6em;
+}
