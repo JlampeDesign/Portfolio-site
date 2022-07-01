@@ -1,7 +1,7 @@
 import "../css/general.css";
 import "../css/product.css"
 
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate} from "react-router-dom";
 import {motion} from 'framer-motion'
 
 const transitionAnimation = {
@@ -17,15 +17,22 @@ const transitionAnimation = {
 }
 
 function Product() {
+/*---------------------------------------------- git location ------------------------------------- */
+const prod1 = () => {navigate(location.state?.from?.pathname || "/pro1");};
+const prod2 = () => {navigate(location.state?.from?.pathname || "/pro2");};
+const prod3 = () => {navigate(location.state?.from?.pathname || "/pro3");};
+const prod4 = () => {navigate(location.state?.from?.pathname || "/pro4");};
+const prod5 = () => {navigate(location.state?.from?.pathname || "/pro5");};
+const prod6 = () => {navigate(location.state?.from?.pathname || "/pro6");};
 
-    /*---------------------------------------------- path location ------------------------------------- */
+/*---------------------------------------------- path location ------------------------------------- */
 let location = useLocation();
 let navigate = useNavigate();
 
 const toHome = () => {navigate(location.state?.from?.pathname || "/");};
 const toPersona = () => {navigate(location.state?.from?.pathname || "/personal");};
 const toContact = () => {navigate(location.state?.from?.pathname || "/contact");};
-
+/*---------------------------------------------- render ------------------------------------- */
   return (
     <div className="main">
         <div className="main_cube">
@@ -34,32 +41,32 @@ const toContact = () => {navigate(location.state?.from?.pathname || "/contact");
                 
                 <div className="productBox">
                     <div className="generalBox">
-                        <motion.div {...transitionAnimation} className="indvBox">
+                        <motion.div {...transitionAnimation} className="indvBox" onClick={prod1}>
                             <h1>Dummy portfolio</h1>
                         </motion.div>
                     </div>
                     <div className="generalBox">
-                        <motion.div {...transitionAnimation} className="indvBox">
+                        <motion.div {...transitionAnimation} className="indvBox" onClick={prod2}>
                             <h1>Portfolio</h1>
                         </motion.div>
                     </div>
                     <div className="generalBox">
-                        <motion.div {...transitionAnimation} className="indvBox">
-                            <h1>Pavilion</h1>
+                        <motion.div {...transitionAnimation} className="indvBox" onClick={prod3}>
+                            <h1>3D printer</h1>
                         </motion.div>
                     </div>
                     <div className="generalBox">
-                        <motion.div {...transitionAnimation} className="indvBox">
+                        <motion.div {...transitionAnimation} className="indvBox" onClick={prod4}>
                             <h1>Tiny House</h1>
                         </motion.div>
                     </div>
                     <div className="generalBox">
-                        <motion.div {...transitionAnimation} className="indvBox">
+                        <motion.div {...transitionAnimation} className="indvBox" onClick={prod5}>
                             <h1>Barber site</h1>
                         </motion.div>
                     </div>
                     <div className="generalBox">
-                        <motion.div {...transitionAnimation} className="indvBox">
+                        <motion.div {...transitionAnimation} className="indvBox" onClick={prod6}>
                             <h1>Magnetic train</h1>
                         </motion.div>
                     </div>
@@ -70,10 +77,10 @@ const toContact = () => {navigate(location.state?.from?.pathname || "/contact");
 
                 <div className="btmNav">
 
-                    <div className="Cube blue" onClick={toHome}></div>
+                    <div className="Cube blue"          onClick={toHome}></div>
                     <div className="Cube yellow height"></div>
-                    <div className="Cube orange"      onClick={toPersona}></div>
-                    <div className="Cube red"         onClick={toContact}></div>
+                    <div className="Cube orange"        onClick={toPersona}></div>
+                    <div className="Cube red"           onClick={toContact}></div>
 
                 </div>
 
