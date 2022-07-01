@@ -8,7 +8,7 @@ import Contact from './4_page/webpage/contact.js';
 function Path1() {window.location.href = 'https://github.com/JlampeDesign/First-portfolio';return null;}
 function Path2() {window.location.href = 'https://github.com/JlampeDesign/Portfolio-site';return null;}
 function Path3() {window.location.href = 'https://github.com/JlampeDesign/3D-printer';return null;}
-function Path4() {window.location.href = 'https://github.com/JlampeDesign/Tiny-house';return null;}
+function Path4() {window.location.href = 'https://github.com/JlampeDesign/tiny_house';return null;}
 function Path5() {window.location.href = 'https://github.com/JlampeDesign/Barber-site';return null;}
 function Path6() {window.location.href = 'https://github.com/JlampeDesign/Magnetic-train';return null;}
 
