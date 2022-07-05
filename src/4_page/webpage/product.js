@@ -18,20 +18,20 @@ const transitionAnimation = {
 
 function Product() {
 /*---------------------------------------------- git location ------------------------------------- */
-const prod1 = () => {navigate(location.state?.from?.pathname || "/pro1");};
-const prod2 = () => {navigate(location.state?.from?.pathname || "/pro2");};
-const prod3 = () => {navigate(location.state?.from?.pathname || "/pro3");};
-const prod4 = () => {navigate(location.state?.from?.pathname || "/pro4");};
-const prod5 = () => {navigate(location.state?.from?.pathname || "/pro5");};
-const prod6 = () => {navigate(location.state?.from?.pathname || "/pro6");};
+    const prod1 = () => {navigate(location.state?.from?.pathname || "/0101");};
+    const prod2 = () => {navigate(location.state?.from?.pathname || "/0102");};
+    const prod3 = () => {navigate(location.state?.from?.pathname || "/0103");};
+    const prod4 = () => {navigate(location.state?.from?.pathname || "/0104");};
+    const prod5 = () => {navigate(location.state?.from?.pathname || "/0105");};
+    const prod6 = () => {navigate(location.state?.from?.pathname || "/0106");};
 
 /*---------------------------------------------- path location ------------------------------------- */
-let location = useLocation();
-let navigate = useNavigate();
+    let location = useLocation();
+    let navigate = useNavigate();
 
-const toHome = () => {navigate(location.state?.from?.pathname || "/");};
-const toPersona = () => {navigate(location.state?.from?.pathname || "/personal");};
-const toContact = () => {navigate(location.state?.from?.pathname || "/contact");};
+    const toHome = () => {navigate(location.state?.from?.pathname || "/");};
+    const toPersona = () => {navigate(location.state?.from?.pathname || "/personal");};
+    const toContact = () => {navigate(location.state?.from?.pathname || "/contact");};
 /*---------------------------------------------- render ------------------------------------- */
   return (
     <div className="main">

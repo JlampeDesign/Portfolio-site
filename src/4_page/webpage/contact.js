@@ -5,7 +5,6 @@ import "../css/general.css";
 import "../css/contact.css";
 import "../css/textWriter.css"
 // package imports
-import React, {Component} from "react"
 import {motion} from 'framer-motion'
 import { useLocation, useNavigate } from "react-router-dom";
 // variables

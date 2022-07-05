@@ -18,11 +18,23 @@
     font-size: 1.7em;
 }
 
+.endlinev2{
+    padding-top: .5em;
+    font-weight: 450;
+    color: black;
+    font-size: 1.7em;
+}
+
 .textBox {
     padding: 4em;
     width: 50vw;
     text-align: left;
+}
 
+.textBoxBig {
+    padding: 4em;
+    width: 50vw;
+    text-align: left;
 }
 
 .imageBox {
@@ -30,4 +42,13 @@
     width: 7.5vw;
     padding: 4.5em;
     left: 75vw;
+}
+
+.logoGit {
+    position: absolute;
+    width: 7.5vw;
+    padding: 4.5em;
+    left: 75vw;
+    top: 0;
+    cursor: pointer;
 }
