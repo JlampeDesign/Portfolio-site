@@ -87,7 +87,7 @@ function Persona() {
 
                 <div className="Cube blue"   onClick={toHome}></div>
                 <div className="Cube yellow" onClick={toProduct}></div>
-                <div className="Cube orange" onClick={toProduct}></div>
+                <div className="Cube orange" onClick={toPersona}></div>
                 <div className="Cube red"    onClick={toContact}></div>
 
             </div>

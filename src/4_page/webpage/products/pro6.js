@@ -43,7 +43,7 @@ function Persona() {
     const line3 = "My part in this project was leading the team, designing the rails and robotic arm and building hardware for the train.";
     const line4 = "This was mostly designing and sourcing the parts for the communication and command system";
 
-    const endLine = "If you want to see more, click on the Bonsai tree in the top right.";
+    const endLine = "This project uses HTML5, CSS, JavaScript and C++. If you want to see more, click on the Bonsai tree in the top right.";
 
     const writerBox = () => {
        return( 
@@ -88,7 +88,7 @@ function Persona() {
 
                 <div className="Cube blue"   onClick={toHome}></div>
                 <div className="Cube yellow" onClick={toProduct}></div>
-                <div className="Cube orange" onClick={toProduct}></div>
+                <div className="Cube orange" onClick={toPersona}></div>
                 <div className="Cube red"    onClick={toContact}></div>
 
             </div>

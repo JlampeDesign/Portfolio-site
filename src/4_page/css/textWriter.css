@@ -11,6 +11,12 @@
     font-size: 1.7em;
 }
 
+.midlineBIG{
+    padding-top: .4em;
+    font-weight: 350;
+    color: black;
+    font-size: 1.7em;
+}
 .endline{
     padding-top: 2.5em;
     font-weight: 450;

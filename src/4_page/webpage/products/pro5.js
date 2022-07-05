@@ -45,7 +45,7 @@ function Persona() {
     const line4 = "I did this with ESP microcontrollers, switches and motion detectors that would send the received data to the database.";
     const line5 = "This would later be displayed on the user front-end and all the raw sensor data would be displayed on the engineer page that only the team could visit";
 
-    const endLine = "If you want to see more, click on the Bonsai tree in the top right.";
+    const endLine = "This project uses HTML5, CSS, JavaScript and C++. If you want to see more, click on the Bonsai tree in the top right.";
 
     const writerBox = () => {
        return( 
@@ -54,7 +54,7 @@ function Persona() {
 
                 <div className="titeltext">{titel}  <Pause ms={500}/></div>
 
-                <div className="midline">
+                <div className="midlineBIG">
                     <p>{line0}</p>                  <Pause ms={500}/>
                     <p>{line1}  {line2}</p>         <Pause ms={500}/>
                     <p>{line3}</p>                  <Pause ms={500}/>
@@ -90,7 +90,7 @@ function Persona() {
 
                 <div className="Cube blue"   onClick={toHome}></div>
                 <div className="Cube yellow" onClick={toProduct}></div>
-                <div className="Cube orange" onClick={toProduct}></div>
+                <div className="Cube orange" onClick={toPersona}></div>
                 <div className="Cube red"    onClick={toContact}></div>
 
             </div>
